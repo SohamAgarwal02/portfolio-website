@@ -117,3 +117,33 @@ marquee {
     font-size: 20px;
     margin-bottom: 10px;
 }
+
+
+@media screen and (max-width: 768px) {
+
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        width: 95%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    section img {
+        width: 150px;
+    }
+
+    p, li {
+        font-size: 16px;
+    }
+}
+
